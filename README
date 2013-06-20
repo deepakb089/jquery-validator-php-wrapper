@@ -10,3 +10,7 @@ $validator->validateOnBlur(); // Optional.
 
 // Assign a rule using format $validator->setRule(<element>, <rule>, <message>);
 $validator->setRule("name", "required", "Please provide your name."); 
+
+<script>
+<?php echo $validator->getValidationCode(); ?>
+</script>
