@@ -3,11 +3,10 @@ jQuery Validator Plugin Wrapper Class
 
 Usage:-
 -------
-```php
+
 $validator = new jQueryValidator();
 $validator->setForm('#signup-form');
 $validator->validateOnBlur(); // Optional.
 
-// Assign a rule.
-$validator->setRule("name", "required", "Please provide your name."); //$validator->setRule(<element>, <rule>, <message>);
-```
+// Assign a rule using format $validator->setRule(<element>, <rule>, <message>);
+$validator->setRule("name", "required", "Please provide your name."); 
